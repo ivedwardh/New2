@@ -1,6 +1,6 @@
 # New2
 
-This repository holds four Claude Code skills in `.claude/skills/`.
+This repository holds four Claude Code skills in `.claude/skills/` and the figures made with them in `figures/`.
 
 ## How to use the skills
 
@@ -16,6 +16,14 @@ This repository holds four Claude Code skills in `.claude/skills/`.
 | last30days | `/last30days <topic>` | Researches a topic across Reddit, X, Hacker News, Polymarket, GitHub, and the web for the last 30 days. | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) (`2c38a54`, v3.37.1) |
 
 All four skills have an MIT license. Each skill folder contains the license file.
+
+## Figures
+
+| Figure | Open | Rebuild |
+|---|---|---|
+| One qubit on an optical bench (Mach-Zehnder interferometer) | Open `figures/quantum-interferometer/quantum-interferometer.html` (dark) or `quantum-interferometer-light.html` (light) in a browser. Each file is standalone. | `node figures/quantum-interferometer/build.mjs` and `node figures/quantum-interferometer/build.mjs --light` |
+
+The figure was made with the `anatomy` skill. Move the pointer across the figure, or use the arrow keys, to turn the phase dial from 0° to 180°. The readout shows P(0) = cos²(φ/2) and the detector clicks.
 
 ## Requirements
 
