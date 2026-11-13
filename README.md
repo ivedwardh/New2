@@ -22,8 +22,12 @@ All four skills have an MIT license. Each skill folder contains the license file
 | Figure | Open | Rebuild |
 |---|---|---|
 | One qubit on an optical bench (Mach-Zehnder interferometer) | Open `figures/quantum-interferometer/quantum-interferometer.html` (dark) or `quantum-interferometer-light.html` (light) in a browser. Each file is standalone. | `node figures/quantum-interferometer/build.mjs` and `node figures/quantum-interferometer/build.mjs --light` |
+| A 4-qubit processor (superconducting chip, pulse generator, readout unit) | Open `figures/four-qubit-processor/four-qubit-processor.html` (dark) or `four-qubit-processor-light.html` (light) in a browser. Each file is standalone. | `node figures/four-qubit-processor/build.mjs` and `node figures/four-qubit-processor/build.mjs --light` |
 
-The figure was made with the `anatomy` skill. Move the pointer across the figure, or use the arrow keys, to turn the phase dial from 0° to 180°. The readout shows P(0) = cos²(φ/2) and the detector clicks.
+The figures were made with the `anatomy` skill.
+
+- Interferometer: move the pointer across the figure, or use the arrow keys, to turn the phase dial from 0° to 180°. The readout shows P(0) = cos²(φ/2) and the detector clicks.
+- 4-qubit processor: use the controls below the drawing to select a qubit, set the pulse amplitude, frequency, and length, switch the couplers, load a preset, and run shots. Point at a part, or select a button in the component list, to read its description.
 
 ## Requirements
 
